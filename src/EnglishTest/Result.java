@@ -15,6 +15,10 @@ class Result {
         this.test = test;
 
         System.out.println("Вы правильно перевели " + this.balls + " слов(а) из " + this.count);
+
+
+         // TODO: 8/14/19 все это нужно хранить в мар.
+
         if(this.balls == this.count)
             System.out.println("\u001B[35m" + "Без единой ошибки! Это отлично! Тест пройден." + "\u001B[30m");
 
